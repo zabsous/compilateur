@@ -1,0 +1,16 @@
+couleur1 = #FF0000
+couleur2 = rgb(0,255,0)
+test = 10
+
+!P 'Premier Paragraphe'
+!P 'Second Paragraphe'
+!P 'Troisième Paragraphe'
+
+bloc = !P[2]
+bloc.couleurFond = couleur1
+bloc.largeur = test
+style1 = [couleurFond : #FFFFFF]
+
+bloc = !P[1]
+
+bloc.style = style1

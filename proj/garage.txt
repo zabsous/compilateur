@@ -1,0 +1,15 @@
+ 
+
+blocs:
+    TITRE {
+        $$ = "TITRE";
+    }
+    | SOUSTITRE {
+        $$ = "SOUSTITRE";
+    }
+    | IMAGE {
+        $$ = "SOUSTITRE";
+    }
+    | PARAGRAPHE {
+        $$ = "SOUSTITRE";
+    }
